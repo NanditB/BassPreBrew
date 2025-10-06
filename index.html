@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BassourFarms - Première Plateforme d'Investissement Agricole en Afrique de l'Ouest</title>
+    <link rel="icon" type="image/png" href="Logo/Thumbnail Bassour.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Progress bar-->
+    <div class="progress-bar"></div>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/+221788989898" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+     <!-- Social Media Buttons -->
+    <div class="social-buttons">
+        <a href="https://www.facebook.com/people/bassourfarms" class="social-button facebook" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/bassourfarms/" class="social-button instagram" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://x.com/bassourfarms" class="social-button twitter" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.tiktok.com/@raftafsn?_t=ZM-8vSMZYDTT8v&_r=1" class="social-button tiktok" aria-label="TikTok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="#" class="social-button linkedin" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+    <!-- Navigation Arrows -->
+    <div class="section-nav">
+        <button class="section-nav-btn prev" aria-label="Previous Section">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+        <button class="section-nav-btn next" aria-label="Next Section">
+            <i class="fas fa-chevron-down"></i>
+        </button>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+            <a href="#home"><img src="Images/Logo.png" alt="Logo" class="logo-img" > </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">Accueil</a>
+                <a href="#about" class="nav-link" data-section="about">À Propos</a>
+                <a href="#investors" class="nav-link" data-section="investors">Investir</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projets</a>
+                <a href="#services" class="nav-link" data-section="services">Services</a>
+                <a href="#gallery" class="nav-link" data-section="gallery">Galerie</a>
+                <a href="#partners" class="nav-link" data-section="partners">Partenaires</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="hero">
+            <div class="hero-background">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Première Plateforme d'Investissement Agroécologique</h1>
+                <p class="hero-subtitle">Cultivons l'avenir avec des solutions écologiques innovantes</p>
+                <button class="cta-button">
+                    Découvrir
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <span>Scroll</span>
+                    <div class="scroll-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre Mission</h2>
+                <p class="section-subtitle">Faire de l’agroécologie un moteur d’investissement sûr et durable.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Agriculture Biologique</h3>
+                    <p>Nous cultivons sans pesticides ni engrais chimiques pour préserver la biodiversité</p>
+                </div>
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Compostage</h3>
+                    <p>Transformation des déchets organiques en compost riche pour nourrir nos sols</p>
+                </div>
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Gestion de l'Eau</h3>
+                    <p>Systèmes d'irrigation intelligents et récupération d'eau de pluie</p>
+                </div>
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Energies Renouvelables</h3>
+                    <p>Utilisation à 100% des énergies vertes </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investor Section -->
+     <section id="investors" class="section investors">
+        <div class="section-header">
+                <h2 class="section-title">Investir dans l'Agriculture</h2>
+                <p class="section-subtitle">Offrir à tous investisseurs l’accès à des projets agricoles rentables à impact socio-environnemental positif.</p>
+            </div>
+        <div class="investors-content">
+            <div class="investors-text">
+                <h3>Devenir Agrivesteur</h3>
+                <p>Nous avons créé le concept d’agrivesteur pour rendre l'agriculture accessible: L’agripreneur entreprend, l’agrivesteur investit. <br> Si devenir agripreneur demande un savoir-faire, investir dans l’agriculture durable est accessible à tous.</p>
+                <ul class="benefits-list">
+                    <li><i class="fas fa-money-bill-wave"></i> Rentable : projets agricoles performants.</li>
+                    <li><i class="fas fa-shield-alt"></i> Contrat sécurisé: Placement sûr et tangible.</li>
+                    <li><i class="fas fa-handshake"></i> Impact : emploi, communauté, environnement.</li>
+                    <li><i class="fas fa-chart-line"></i> Croissance partagée : vos gains soutiennent aussi le développement local.</li>
+                </ul>
+                <button class="cta-button toggle-form" data-form="investor-form">
+                    Devenir Agrivesteur
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+        
+                <div class="driver-form" id="investor-form">
+                    
+                    <form class="slick-form">
+                        <input type="text" name="name" placeholder="Nom complet *" required>
+                        <input type="tel" name="phone" placeholder="Téléphone *" required>
+                        <input type="email" name="email" placeholder="Email">
+                        <textarea name="additional_info" placeholder="Informations supplémentaires"></textarea>
+                        <p class="form-note">* Champs obligatoires</p>
+                        <button type="submit" class="button">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Business Carousel Section -->
+    <section>
+        <div class="section-header">
+                <p class="section-subtitle">Promouvoir une agriculture respectueuse de l'environnement</p>
+            </div>
+                <!-- Business Carousel Section -->
+        <div class="carousel-container business-carousel">
+            <div class="carousel">
+                <div class="carousel-slide" >
+                    <video class="vidcar" src="Video/Carroussel1/car1.mp4"  autoplay muted loop playsinline alt="Raftaf Business Fleet">
+                    <div class="slide-content">
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                     <video class="vidcar" src="Video/Carroussel1/car2.mp4"  autoplay muted loop playsinline alt="Raftaf Business Fleet">
+                    <div class="slide-content">
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                     <video class="vidcar" src="Video/Carroussel1/car3.mp4"  autoplay muted loop playsinline alt="Raftaf Business Fleet">
+                    <div class="slide-content">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button prev">&#10094;</button>
+            <button class="carousel-button next">&#10095;</button>
+            <div class="carousel-dots"></div>
+        </div>
+
+
+    </section>
+            
+            <div class="investors-stats">
+                <div class="stat-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Gain financier</h4>
+                    <p class="stat-value">Investissement réel</p>
+                    <p class="stat-desc">Adossé à des fermes réelles et productives</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Application Bassour</h4>
+                    <p class="stat-value">Transparence</p>
+                    <p class="stat-desc">Suivi digital en temps réel.</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-file-contract"></i>
+                    <h4>Contrat</h4>
+                    <p class="stat-value">Sécurisé</p>
+                    <p class="stat-desc">Vos investissements sont protégés.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Carousel Section -->
+    <section>
+        <div class="section-header">
+                <p class="section-subtitle">Promouvoir une agriculture respectueuse de l'environnement</p>
+            </div>
+                <!-- Business Carousel Section -->
+        <div class="carousel-container business-carousel">
+            <div class="carousel">
+                <div class="carousel-slide" >
+                    <video class="vidcar" src="Video/Carroussel2/car1.mp4"  autoplay muted loop playsinline alt="Raftaf Business Fleet">
+                    <div class="slide-content">
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                     <video class="vidcar" src="Video/Carroussel2/car2.mp4"  autoplay muted loop playsinline alt="Raftaf Business Fleet">
+                    <div class="slide-content">
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                     <video class="vidcar" src="Video/Carroussel2/car3.mp4"  autoplay muted loop playsinline alt="Raftaf Business Fleet">
+                    <div class="slide-content">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-button prev">&#10094;</button>
+            <button class="carousel-button next">&#10095;</button>
+            <div class="carousel-dots"></div>
+        </div>
+
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Projets</h2>
+                <p class="section-subtitle">Découvrez nos réalisations et projets en cours</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-animate>
+                    <div class="project-image">
+                        <img src="Images/Aerien1.jpg" alt="Projet Kemaye">
+                        <div class="project-overlay">
+                            <button class="view-project">Voir Plus</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet Kemaye</h3>
+                        <p>Le Projet Kemaye présente la vision fondatrice de Bassourfarms : faire de l’agriculture un levier d’investissement durable et d’impact positif en Afrique.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-animate>
+                    <div class="project-image">
+                        <img src="Images/Chateau d'eau.jpg" alt="Projet Tanma">
+                        <div class="project-overlay">
+                            <button class="view-project">Voir Plus</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet Tanma</h3>
+                        <p>Au cœur du Sénégal, situé près du Lac Tanma, a été réalisé ce projet:
+                            une exploitation moderne et durable, où agroécologie, énergie solaire et innovation agricole s’unissent pour produire mieux, tout en préservant la nature.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-animate>
+                    <div class="project-image">
+                        <img src="Images/Agrivolt1.jpg" alt="Ruches">
+                        <div class="project-overlay">
+                            <button class="view-project">En Cours</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Agrivolt</h3>
+                        <p>Le Projet Agrivolt est bien plus qu’un projet agricole ou énergétique : c’est un modèle d’avenir pour le Sénégal et l’Afrique. Alliant innovation technologique, rentabilité économique et impact positif, il offre une opportunité d’investissement durable et transformatrice.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-animate>
+                    <div class="project-image">
+                        <img src="Images/Sac Plan 1.png" alt="Projet Sac">
+                        <div class="project-overlay">
+                            <button class="view-project">En Cours</button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>S.A.C</h3>
+                        <p>Notre mission : Vous investissez, la terre travaille. Nous gérons tout le reste.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Coopérative Cards Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Services</h2>
+                <p class="section-subtitle">Promouvoir une agriculture respectueuse de l'environnement</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Réseau d’exploitants et de paysans</h3>
+                    <p>Nous fédérons plus de 50 groupements agricoles partenaires, permettant aux producteurs de mutualiser leurs ressources, partager leur savoir-faire et accéder à des opportunités de marché élargies.</div>
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Système de certification et de traçabilité</h3>
+                    <p>Bassourfarms accompagne les coopératives dans l’obtention de labels bio et d’origine contrôlée, garantissant la qualité, la transparence et la compétitivité des produits sur les marchés nationaux et internationaux.</p>
+                </div>
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <h3>Accès aux marchés et débouchés</h3>
+                    <p>Grâce à nos partenariats avec des distributeurs (Carrefour, Supeco, Hypermarché Exclusive, exportateurs...), nous assurons aux producteurs des canaux de vente stables et rémunérateurs aussi bien sur le marché local qu’à l'international.</p>
+                </div>
+                <div class="about-card" data-animate>
+                    <div class="card-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Partenariats techniques et industriels</h3>
+                    <p>Nous mettons en relation notre réseau de coopératives avec des partenaires industriels pour la transformation et la valorisation de leurs productions agricole, renforçant ainsi la rentabilité et la durabilité des exploitations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galerie</h2>
+                <p class="section-subtitle">Nos réalisations en images</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-animate>
+                    <img src="Images/Papaye1.jpg" alt="Papayes">
+                    <div class="gallery-overlay">
+                        <h3>Plantation de Papayes</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="Images/Oignons1.jpeg" alt="Oignons">
+                    <div class="gallery-overlay">
+                        <h3>Culture d'Oignons</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="Images/Compostière1.jpg" alt="Compostière">
+                    <div class="gallery-overlay">
+                        <h3>Compostière</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate>
+                    <img src="Images/Pépinière2.jpg" alt="Pépinière">
+                    <div class="gallery-overlay">
+                        <h3>Pépinière</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="section partners">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Témoignages & Partenaires</h2>
+                <p class="section-subtitle">Découvrez ce que disent nos clients et partenaires de confiance</p>
+            </div>
+
+            <!-- Testimonials Section -->
+            <div style="margin-bottom: 5rem;">
+                <h3 style="text-align: center; font-size: 2rem; color: var(--primary-color); margin-bottom: 3rem;">Ce Qu'ils Disent de Nous</h3>
+                <div class="testimonials-container">
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <img src="Logo Partner/Partner Yamalé.jpg" alt="Client Testimonial">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Les produits issus des fermes Bassour sont d’une qualité exceptionnelle, certifiés et traçables. Une filière moderne et respectueuse de l’environnement."</p>
+                            <div class="testimonial-author">
+                                <h4>Gabriel Schwartz</h4>
+                                <p>Fondatrice Centre Yamalé</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <img src="Logo Partner/Partner Bassour.jpg" alt="Client Testimonial">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Bassourfarms réussit à allier innovation technologique et agroécologie. Leur système de suivi digital renforce l’efficacité et la transparence de la gestion agricole."</p>
+                            <div class="testimonial-author">
+                                <h4>Mouhamadou Mansour Diagne</h4>
+                                <p>Co-Fondateur, Raftaf</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-image">
+                            <img src="Logo Partner/Partner Bonergie.jpg" alt="Client Testimonial">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Le concept Agrivesteur nous a convaincus. Bassourfarms allie rentabilité, sécurité et impact social réel. Nos placements ont du sens et des résultats mesurables."</p>
+                            <div class="testimonial-author">
+                                <h4>Maguette Thiandoume</h4>
+                                <p>CEO, Bonergie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Partners Section -->
+            <div>
+                <h3 style="text-align: center; font-size: 2rem; color: var(--primary-color); margin-bottom: 3rem;">Ils Nous Ont Fait Confiance</h3>
+                <div class="partners-grid">
+                    <div class="partner-card">
+                        <img src="Logo Partner/Raftaf Transparent.png" alt="Raftaf Logo">
+                        <div class="partner-overlay">
+                            <p>Raftaf</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/Wave Transparent.png" alt="Wave Logo">
+                        <div class="partner-overlay">
+                            <p>Wave</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/carrefour-sn-logo.svg" alt="Carrefour">
+                        <div class="partner-overlay">
+                            <p>Carrefour</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/supeco logo.gif" alt="Supeco">
+                        <div class="partner-overlay">
+                            <p>Supeco</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/Orange Logo.png" alt="Orange Logo">
+                        <div class="partner-overlay">
+                            <p>Orange</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/Bonergie Logo.png" alt="Bonergie Logo">
+                        <div class="partner-overlay">
+                            <p>Bonergie</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/Yamalé Logo.jpg" alt="Yamalé Logo">
+                        <div class="partner-overlay">
+                            <p>Yamalé</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/Hypermarché Logo.jpg" alt="Hypermarché Logo">
+                        <div class="partner-overlay">
+                            <p>Hypermarché Exclusive</p>
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <img src="Logo Partner/Fenab Logo.png" alt="Fenab Logo">
+                        <div class="partner-overlay">
+                            <p>FENAB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">Rejoignez notre mission pour un avenir durable</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate>
+                    <h3>Informations</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kémaye, Thiès, Sénégal</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+221 78 898 98 98</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@bassourfarms.com</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#https://www.facebook.com/people/bassourfarms" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#https://www.instagram.com/bassourfarms/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#https://x.com/bassourfarms" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" data-animate>
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Nom</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telephone" required>
+                        <label for="telephone">Telephone</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" >
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        Envoyer
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loader">
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+            <div class="leaf"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
+
+
